@@ -1,0 +1,27 @@
+-After installling django
+ django-admin startproject learning_log .
+ py manage.py migrate
+ py manage.py runserver
+
+Stop server hit Ctrl+c	
+
+main_app is our project
+learning_logs on slide and book
+
+
+py manage.py makemigrations MainApp
+py manage.py migrate
+
+py manage.py createsuperuser
+Username (leave blank to use 'get2_'): ravi_prasai1
+Email address: ravi_prasai1@baylor.edu
+Password: ********
+Password (again): 
+Superuser created successfully.
+
+Chess
+Rock Climbing
+
+on Admin
+from .models import ClassName
+admin.site.register(ClassName)
